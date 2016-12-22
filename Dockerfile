@@ -5,8 +5,6 @@ ENV container docker
 ENV UPDATED_ON "10 December 2016"
 ENV TOMCAT_VERSION 8.0.39
 
-#RUN yum update -y
-#RUN dnf install -y httpd httpd-devel httpd-tools wget tar supervisor
 RUN apk add --update apache2 apache2-proxy bash wget tar supervisor
 
 # apache
